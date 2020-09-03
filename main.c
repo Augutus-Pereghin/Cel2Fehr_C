@@ -8,7 +8,7 @@
 
 int main(void) {
   
-  float temp_C = atof(readline("Enter temperature in celsius: "));
+  double temp_C = atof(readline("Enter temperature in celsius: "));
 
   printf("%f° in Celsius is equivalent to %f\u00B0 Fahrenheit.\n",temp_C,(temp_C * 9/5 +32));
 
